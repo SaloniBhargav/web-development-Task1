@@ -1,0 +1,242 @@
+.container{
+	width: 100%;
+}
+.main_div{
+	width: 45%;
+	height: 1440px;
+	border-right: 1px solid black;
+    border-bottom: 1px solid black;  
+	margin: auto;
+
+}
+.main_div:hover{
+    cursor: grab;
+}
+.btn{
+   width: 260px;
+   height: 50px;
+   border: none;
+   margin: 2% auto; 
+   display: block;
+   font-size: 20px;
+   font-weight: bold;
+   font-style: italic;
+   font-family: ui-sans-serif;
+   background: #e763e5;
+  
+}
+.btn::first-letter{
+	color: red;
+	font-size: 30px;
+}
+.btn:hover{
+   border: darkred;
+   background: black;
+   color: white;
+}
+.btn1{
+	width: 280px;
+   height: 40px;
+   border: none;
+   margin: 4% auto; 
+   display: block;
+   font-size: 17px;
+   font-weight: bold;
+   font-style: italic;
+   font-family: ui-sans-serif;
+   background: #e763e5;
+}
+.btn2{
+   width: 280px;
+   height: 40px;
+   border: none;
+   margin: 4% auto;
+   display: block;
+   font-size: 17px;
+   font-weight: bold;
+   font-style: italic;
+   font-family: ui-sans-serif;
+   background: #e763e5;
+}
+.btn3{
+    width: 280px;
+   height: 40px;
+   border: none;
+   margin: 4% auto;
+   display: block;
+   font-size: 17px;
+   font-weight: bold;
+   font-style: italic;
+   font-family: ui-sans-serif;
+   background: #e763e5;
+      
+}
+.para{
+
+	display: block;
+	text-align: center;
+	justify-content: center;
+	margin-left: 18px;
+}
+.para_div{
+	color: #e763e5;
+}
+.team{
+	display: block;
+}
+.team h4{
+	text-align: center;
+}
+
+.bookmarkRibbon {
+  width: 59px;
+  height: 34px;
+  margin-top: 100px;
+  background: #e763e5;
+  clip-path: polygon(0% 0%, 100% 0%, calc(100% - 20px) 50%, 100% 100%, 0% 100%);
+}
+
+.ribbon-horizontal{
+	float: inline-end;	
+	right: 0;
+	bottom: 5rem;
+  	border: 13px solid #e46a76;
+  	border-right: 0;
+  	border-left: 10px solid transparent;
+  	height: 0;
+  	line-height: 0;
+  	width: 59px;
+  	color: white;
+  	z-index: 1;
+  	-webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+    		filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+	letter-spacing: 3px;
+}
+
+.box {
+    height: 40px;
+    /* border: 2px solid green; */
+   /* border-left: 0;*/
+    /* border-radius: 0 5px 5px 0; */
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    /* margin: 1px; */
+    width: 59px;
+    float: inline-end;
+}
+.box:before,
+.box:after{
+   content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    height: 50%;
+    /* border-left: 3px solid green; */
+    background: #e763e5;
+}
+.box:before {
+  top:0;
+  transform:skew(45deg);
+  transform-origin:top;
+}
+.box:after {
+  bottom:0;
+  transform:skew(-45deg);
+  transform-origin:bottom;
+}
+.img1{
+    width: 80px;
+    height: 90px;
+    float: left;
+    margin-left: 29%;
+    margin-bottom: 8%;
+    display: flex;
+    display: block;
+    
+}
+.img1 img{
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+}
+.img1 p{
+    margin-top: -14px;
+    font-size: 10px; 
+
+    text-align: justify;
+}
+.img2 p{
+    margin-top: -14px;
+    font-size: 10px; 
+
+    text-align: justify;
+}
+.img2{
+    width: 80px;
+    height: 90px;
+    float: left;
+    margin-left: 15%;
+    margin-bottom: 8%;
+    display: flex;
+    display: block;
+    /*border: 1px solid grey;*/
+}
+.img2 img{
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+}
+.images{
+    display: flex;
+    width: 600px;
+    height: 100px;
+    display: block;
+    float: left;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 8%;
+   /* border: 1px solid grey;*/
+}
+.img3{
+    width: 80px;
+    height: 80px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 131px; 
+}
+.img3 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.img3 p{
+    margin-top: -15px;
+    font-size: 10px; 
+
+    text-align: justify;
+}
+.img4 p{
+    margin-top: -15px;
+    font-size: 10px; 
+
+    text-align: justify;
+}
+.img4{
+    width: 80px;
+    height: 80px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 71px; 
+}
+.img4 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
